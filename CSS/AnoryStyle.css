@@ -1,0 +1,44 @@
+body {background-color: #00ffac;
+	font-size:20px ; 
+	 }
+
+div.header h1 {
+	font-family: serif;
+	font-size: 200%;
+}
+
+div.header p {
+	line-height: 120%;
+	text-align: justify;
+}
+
+
+div.malnourishedphotos{
+	border-style: outset;
+	border-color: #00D3FF;
+	width: 500px;
+	height: 500px;
+	background: #00FF2C;
+	overflow: hidden;
+}
+
+div.Moreanory,a:link { 
+	color:#FFAC00;
+}
+
+div.Moreanory,a:visited {
+	color: #55aa81;
+}
+
+div.Moreanory,a:hover{
+	color: white;
+}
+
+div.Moreanory,a:active {
+	color:#db5b00 ;
+
+}
+
+div.footer{
+	background-color: #FFAC00;
+}
