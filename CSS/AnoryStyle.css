@@ -1,15 +1,42 @@
-body {background-color: #00ffac;
-	font-size:20px ; 
-	 }
-
-div.header h1 {
-	font-family: serif;
-	font-size: 200%;
+html {
+	font-size: 62.5%;
 }
 
-div.header p {
+body {max-width: 100vw;
+	min-width: 100vw;
+	background-color: #00FFAC;
+	font-size: 2.0rem ; 
+	font-family: serif;
+	 }
+
+div.header h1{
+	font-size: 6.8rem;
+	font-style: italic;
+	text-shadow: -5px 5px #00FF2D;
+}
+
+h1.header{
+	font-size: 4.0rem;
+	font-style: italic;
+	text-shadow: -5px 5px #00FF2D
+}
+
+h2.header {
+	font-size: 3.2rem;
+	font-style: italic;
+	text-shadow: -5px 5px #00FF2D
+}
+
+div.header p:first-letter{
+	font-size: 4.0rem;
+	font-style: italic;
+	text-shadow: -5px 5px #00FF2D;
+}
+
+div.info p {
 	line-height: 120%;
 	text-align: justify;
+	font-size: 2.0rem;
 }
 
 
@@ -23,11 +50,11 @@ div.malnourishedphotos{
 }
 
 div.Moreanory,a:link { 
-	color:#FFAC00;
+	color:#000000;
 }
 
 div.Moreanory,a:visited {
-	color: #55aa81;
+	color: #dimgray;
 }
 
 div.Moreanory,a:hover{
@@ -38,7 +65,8 @@ div.Moreanory,a:active {
 	color:#db5b00 ;
 
 }
-
-div.footer{
+div.footer a{
+	display: inline-block;
+	width: 100%;
 	background-color: #FFAC00;
 }
